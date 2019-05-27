@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after{
+	box-sizing: border-box;
+}
+.row > div{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: rgba(86, 61, 124, .15);
+	border: 1px solid rgba(86, 61, 124, .2); 
+}
+body{
+	margin: 0;
+	background-color: #660000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a{
+	font-family: 'Georgia', regular;
+	font-weight: normal;
+}
+
+$font_size1: 1.75rem;
+$font_color-white: #ffffff;
+$background_yelow: #fff568;
+$font_color-small: #979797;
+$font_size13px: 0.8125rem;
+$font_size12px: 0.75rem;
+
+.yelowe-line{
+	height: 5px;
+	background-color: $background_yelow;
+	position: relative;
+	z-index: 11;
+}
+a:hover{
+	color: $font_color-white;
+}
+h1 a{
+	text-decoration: none !important;
+	color: $font_color-white;
+	font-size: $font_size1;
+}

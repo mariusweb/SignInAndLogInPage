@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.row > div {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+body {
+  margin: 0;
+  background-color: #660000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: 'Georgia', regular;
+  font-weight: normal;
+}
+
+.yelowe-line {
+  height: 5px;
+  background-color: #fff568;
+  position: relative;
+  z-index: 11;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+h1 a {
+  text-decoration: none !important;
+  color: #ffffff;
+  font-size: 1.75rem;
+}
+
+/*# sourceMappingURL=style.css.map */
