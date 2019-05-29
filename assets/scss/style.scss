@@ -9,9 +9,19 @@
 	background-color: rgba(86, 61, 124, .15);
 	border: 1px solid rgba(86, 61, 124, .2); 
 }
+// colors
+$background-main:  rgba(#660000, 0.7);
+$background_yelow: #fff568;
+// font colors
+$font_color-white: #ffffff;
+$font_color-small: #979797;
+// font sizes
+$font_size1:       1.75rem;
+$font_size13px:    0.8125rem;
+$font_size12px:    0.75rem;
 body{
 	margin: 0;
-	background-color: #660000;
+	background-color: $background-main;
 }
 
 h1,
@@ -26,12 +36,6 @@ a{
 	font-weight: normal;
 }
 
-$font_size1: 1.75rem;
-$font_color-white: #ffffff;
-$background_yelow: #fff568;
-$font_color-small: #979797;
-$font_size13px: 0.8125rem;
-$font_size12px: 0.75rem;
 
 .yelowe-line{
 	height: 5px;
