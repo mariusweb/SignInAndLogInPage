@@ -27,6 +27,8 @@ p,
 a {
   font-family: 'Georgia', regular;
   font-weight: normal;
+  color: #ffffff;
+  text-decoration: none !important;
 }
 
 .yelowe-line {
@@ -36,13 +38,15 @@ a {
   z-index: 11;
 }
 
+.container-fluid {
+  max-width: 1200px;
+}
+
 a:hover {
   color: #ffffff;
 }
 
 h1 a {
-  text-decoration: none !important;
-  color: #ffffff;
   font-size: 1.75rem;
 }
 

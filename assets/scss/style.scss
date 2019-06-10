@@ -16,9 +16,11 @@ $background_yelow: #fff568;
 $font_color-white: #ffffff;
 $font_color-small: #979797;
 // font sizes
-$font_size1:       1.75rem;
+$font_size-h1:       1.75rem;
 $font_size13px:    0.8125rem;
 $font_size12px:    0.75rem;
+//width
+$max_width:        1200px;
 body{
 	margin: 0;
 	background-color: $background-main;
@@ -34,6 +36,8 @@ p,
 a{
 	font-family: 'Georgia', regular;
 	font-weight: normal;
+	color: $font_color-white;
+	text-decoration: none !important;
 }
 
 
@@ -43,11 +47,12 @@ a{
 	position: relative;
 	z-index: 11;
 }
+.container-fluid{
+	max-width: $max_width;
+}
 a:hover{
 	color: $font_color-white;
 }
 h1 a{
-	text-decoration: none !important;
-	color: $font_color-white;
-	font-size: $font_size1;
+	font-size: $font_size-h1;
 }
